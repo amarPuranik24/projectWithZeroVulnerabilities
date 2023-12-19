@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
        System.console().printf("Project with 0 vulnerabilities");
         String password = "myPassword666";
-        String password1 = password;
+      //  String password1 = password;
         String password2 = "pasword2";
         String encryptedpassword = null;
         System.console().printf("Project with 12 vulnerabilities");
