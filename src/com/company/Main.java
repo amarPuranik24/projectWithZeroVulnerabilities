@@ -8,8 +8,6 @@ public class Main {
        System.console().printf("Project with 0 vulnerabilities");
         System.console().printf("Project with few vulnerabilities");
         String passwordforlogin = abc;
-        String aliasPassword =def;
-        String password3 = "pasword55";
         String password2 = "pasword2";
         String encryptedpassword = null;
         System.console().printf("Project with 12 vulnerabilities");
