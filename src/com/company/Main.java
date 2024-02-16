@@ -4,6 +4,10 @@ package com.company;
 
 public class Main {
 
+    public void display()
+    {
+        System.out.println("new func");
+    }
     public static void main(String[] args) {
        System.console().printf("Project with 0 vulnerabilities");
         System.console().printf("Project with few vulnerabilities");
