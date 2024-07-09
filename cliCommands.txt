@@ -1,2 +1,1 @@
-sast basic------------>
-runCxConsole.cmd Scan -v -ProjectName "CxServer/testNB244510" -CxServer http://10.32.0.55 -cxuser admin@cx -cxpassword Cx12345678! -LocationType folder -LocationPath "C:\sourceCode\JavaVulnerableLabEmaster" -preset "Checkmarx Default"
+runCxConsole.sh Scan -v -ProjectName "CxServer/checkReportNew89JJK" -CxServer https://cxprivatecloud.checkmarx.net -cxuser Kishorh -cxpassword Admin@123456 -LocationType folder -LocationPath "C:\sourceCode\JavaVulnerableLabEmaster" -LocationPathExclude "test*" -LocationFilesExclude "!**/*.ear" -preset "Checkmarx Default" -Configuration "Default Configuration" -ReportPDF sast_Project_ReportEE.pdf -ReportXML cx_sast_reportEE.xml -Comment "Build job" -Log cxsastlog.log -ForceScan
