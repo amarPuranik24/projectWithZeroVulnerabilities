@@ -9,7 +9,7 @@ public class Main {
         System.out.println("def");
     }
     public static void main(String[] args) {
-        String passwordforlogin = abc;
+        String passwordforlogin1 = abc;
        System.console().printf("Project with 0 vulnerabilities");
         System.console().printf("Project with few vulnerabilities");
         String password2 = "pasword2";
